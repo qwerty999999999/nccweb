@@ -8,10 +8,7 @@ if(isset($_SESSION['usernamea'])){
     header("Refresh:0; url=admin.php");
 }
 
-$servername = "localhost";
-$username = "";
-$password = "";
-$conn = new mysqli($servername, $username, $password,'');
+require 'connect.php';
 if(isset($_POST['submit'])){
 	$u=$_POST['username'];
 $s="SELECT * FROM attendance WHERE email='$u'";
