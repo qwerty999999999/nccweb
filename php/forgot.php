@@ -16,7 +16,7 @@ $q=mysqli_query($conn,$s);
 if(mysqli_num_rows($q)>0)
 {$row=mysqli_fetch_assoc($q);
 $p=$row['password'];
-    require_once "phpmailer/class.phpmailer.php";
+    require_once "../phpmailer/class.phpmailer.php";
 $message = 'HI '.$row['name'].' Your Password is '.$p;
 $mail = new PHPMailer(true);
 $mail->IsSMTP();
