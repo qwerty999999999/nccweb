@@ -76,7 +76,7 @@ echo "<script type='text/javascript'>alert('Attendance Updated(Go Back And Revis
    
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <style>
-<?php include 'css/styled.css'; ?>
+<?php include '../css/styled.css'; ?>
 body
 {
     background-color:#333;
