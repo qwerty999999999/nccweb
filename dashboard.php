@@ -3,10 +3,7 @@ session_start();
 if(!isset($_SESSION['username'])){
     header("Refresh:0; url=indexd.php");
 }
-$servername = "localhost";
-$username = "";
-$password = "";
-$conn = new mysqli($servername, $username, $password,'');
+require 'connect.php';
 $u=$_SESSION['username'];
 $s="SELECT * FROM attendance WHERE crn='$u'";
 $q=mysqli_query($conn,$s);
