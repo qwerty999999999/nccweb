@@ -121,7 +121,7 @@ body {
       <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Login</button>
      <button class="btn btn-lg btn-primary btn-block" type="submit" name="submitadmin">Admin</button><br>
      <a href="forgot.php" style="text-decoration:none">Forgot Password</a><br>
-     <a href="html/index.html" style="text-decoration:none">HOME</a>
+     <a href="../html/index.html" style="text-decoration:none">HOME</a>
     </form>
   </div>
 
