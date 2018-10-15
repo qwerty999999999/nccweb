@@ -3,11 +3,7 @@ session_start();
 if(!isset($_SESSION['usernamea'])){
     header("Refresh:0; url=index.php");
 }
-sleep();
-$servername = "localhost";
-$username = "";
-$password = "";
-$conn = new mysqli($servername, $username, $password,'');
+require 'connect.php';
 $i=0;
 $s="SELECT * FROM attendanceevening";
     $q=mysqli_query($conn,$s);
