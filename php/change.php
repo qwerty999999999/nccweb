@@ -12,6 +12,6 @@ $u=$_SESSION['username'];
 }
 ?>
 <form method="POST">
-<input type="password" name="password" placeholder="New Password">
+<input type="password" name="password" placeholder="New Password" required>
 <button type="submit" name="submit">Change Password</button>
 </form>
