@@ -32,7 +32,7 @@ $mail->SMTPAuth = true;
         $emails=row['email'];
         $mail->AddAddress($u);
 
-        $mail->Subject = trim("Pssword");
+        $mail->Subject = trim("Password");
         $mail->MsgHTML($message);
         try {
           $mail->send();
