@@ -41,7 +41,7 @@ if((mysqli_num_rows($q)>0)||(mysqli_num_rows($q1)>0))
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <style>
-<?php include 'css/styled.css'; ?>
+<?php include '../css/styled.css'; ?>
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
 .quote-box {
