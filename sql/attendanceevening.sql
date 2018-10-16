@@ -45,15 +45,7 @@ CREATE TABLE `attendanceevening` (
   `DOB` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `attendance`
---
 
-INSERT INTO `attendance` (`email`, `name`, `password`, `crn`, `attendance`, `TotalLectures`, `CadetNumber`, `Rank`, `FatherName`, `MotherName`, `BloodGroup`, `MobileNumber`, `ClassStudying`, `DOB`) VALUES
-('birkamalbk@yahoo.in', 'Birkamal', 'bir', '1615017', 3, 3, 1234, 'Sgt', 'charanjeet ', 'harjonder', 'A+', '987654321', 'Btech', '2000-07-22'),
-('jaswindersodhi1997@gmail.com', 'babber', '123', '1615048', 3, 3, 123, '1', 'happy', 'ruby', 'O-', '9463743264', 'D3cseA2', '2000-07-22'),
-('pardeep27111998@gmail.com', 'Pardeep', '123', '1615064', 14, 21, 1, 'SUO', 'surinder', 'nirmala', 'A+', '9465453681', 'D3CSB1', '1998-07-22'),
-('its@gmail.com', 'raman', '123', '654', 0, 0, 5, 'a', 'kn', 'bvc', 'h', '64664', 'm', '2000-07-22');
 
 --
 -- Indexes for dumped tables
