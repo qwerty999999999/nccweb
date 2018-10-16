@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['usernamea'])){
-    header("Refresh:0; url=index.php");
+    header("Refresh:0; url=indexd.php");
 }
 require 'connect.php';
 $i=0;
