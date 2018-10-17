@@ -3,8 +3,9 @@ session_start();
 if(!isset($_SESSION['usernamea'])){
     header("Refresh:0; url=indexd.php");
 }
-?>
 require 'connect.php';
+?>
+
 <html>
 <head>
   <meta charset="utf-8">
