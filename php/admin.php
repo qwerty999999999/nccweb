@@ -174,6 +174,14 @@ i {
               </span>
             </a>
       </div>
+       <div class="Btn Btn-Up red" data-content="Click To Delete">
+            <a href="edit.php">
+              <span>
+                  <em>Delete A Student</em>
+                  <i aria-hidden="true" class="fa fa-cloud-download fa-lg"></i>				
+              </span>
+            </a>
+      </div>
       <div class="Btn Btn-Down pink" data-content="Click To Logout!">
             <a href="logout.php">
               <span>
